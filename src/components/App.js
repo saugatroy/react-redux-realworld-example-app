@@ -15,6 +15,15 @@ import Settings from '../components/Settings';
 import { store } from '../store';
 import { push } from 'react-router-redux';
 
+//Adding honeycomb-beeline
+/*
+require("honeycomb-beeline")({
+  writeKey: "7674ecb64798744faabdf31fe8d2197d",
+  dataset: "saugat-node-distributed-app",
+  serviceName: "saugat-node-service"
+});
+*/
+
 const mapStateToProps = state => {
   return {
     appLoaded: state.common.appLoaded,
