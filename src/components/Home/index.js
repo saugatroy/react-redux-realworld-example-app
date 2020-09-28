@@ -10,6 +10,9 @@ import {
   APPLY_TAG_FILTER
 } from '../../constants/actionTypes';
 
+//Checking Node version
+console.log('Running Node.js version:', process.version);
+
 const Promise = global.Promise;
 
 const mapStateToProps = state => ({
